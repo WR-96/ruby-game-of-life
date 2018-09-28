@@ -4,6 +4,14 @@ require './lib/board.rb'
 class Game < Board
   attr_accessor :board
 
+  def draw_figure(figure)
+    figure.each do |position|
+      cell = @board[position[0]][position[1]]
+      revive(cell)
+      notify_status(cell)
+    end
+  end
+
   def next_generation
     cells_changed = []
     @board.each do |row|

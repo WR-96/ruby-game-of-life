@@ -2,7 +2,7 @@ require './lib/cell.rb'
 # Board class
 class Board
   @board = []
-  def initialize(size = 25)
+  def initialize(size = 23)
     @size = size
     set_board
     set_neighbors
