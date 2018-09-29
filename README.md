@@ -24,3 +24,5 @@ Once you are int the folder where you clone the repo, install the gem
 Then run the interactive Ruby `irb` and **require** the gem `require 'conway'
 
 This should start the game, now select wich figure you want to play with.
+
+![Game of life playing an exploder](https://media.giphy.com/media/55gH3Nk8e5bUhdM6O7/giphy.gif)
