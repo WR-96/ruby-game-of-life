@@ -21,7 +21,7 @@ Once you are int the folder where you clone the repo, install the gem
 
 `$ gem install ./conway-0.0.0.gem`
 
-Then run the interactive Ruby `irb` and **require** the gem `require 'conway'
+Then run the interactive Ruby `irb` and **require** the gem `require 'conway'`
 
 This should start the game, now select wich figure you want to play with.
 
